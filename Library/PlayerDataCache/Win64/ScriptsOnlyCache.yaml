@@ -6,11 +6,11 @@ ScriptsOnlyBuild:
     - MainMenuS
     - SavedCavesManager
     - SavingManager
+    - ShowImage
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -57,31 +57,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1452}
-    - Class: 114
       Script: {instanceID: 1454}
     - Class: 114
-      Script: {instanceID: 2354}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2358}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 3098}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3930}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 3958}
+    - Class: 114
+      Script: {instanceID: 5660}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -118,21 +118,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1452}
-    - Class: 114
       Script: {instanceID: 1454}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3462}
+    - Class: 114
+      Script: {instanceID: 3958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,29 +167,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1452}
-    - Class: 114
       Script: {instanceID: 1454}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3354}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 4520}
+      Script: {instanceID: 3958}
     - Class: 114
-      Script: {instanceID: 4726}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 5312}
+      Script: {instanceID: 4526}
+    - Class: 114
+      Script: {instanceID: 4732}
+    - Class: 114
+      Script: {instanceID: 5318}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -553,6 +555,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowImage
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -697,7 +705,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: f6ce0286a2fa32cb17e9741bf2d05017
+      Hash: 5ebc08e055d0ee715352672c5eebf352
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SavedCavesManager
@@ -755,4 +763,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Generator.unity
   - Assets/Scenes/Saves.unity
   playerPath: "C:/Users/black/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
-    \u0441\u0442\u043E\u043B/CaveGenerator.exe"
+    \u0441\u0442\u043E\u043B/Cave-Generator-Release-version/CaveGenerator.exe"
